@@ -3,9 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Personal Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <section class="menu">
+        <div>
+            <h4>About</h4>
+        </div>
+        <div>
+            <h4>Work</h4>
+        </div>
+        <div>
+            <h4>Portfolio</h4>
+        </div>
+        <div>
+            <h4>Contact</h4>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="half-width">
+            <h1>HELLO, I'M <br><span>MOHAMMED ARMAN KHAN</span></h1>
+            <p>A full stack allround Web Developer</p>
+            <p>in Uttara, Dhaka.</p>
+            <button class="link-button">HIRE ME</button>
+        </div>
+        <div class="half-width">
+            <img class="picture" src="images/arman1.png" alt="Arman">
+        </div>
+    </section>
     
+    <section class="About">
+        <div class="half-width">
+            <img class="picture" src="images/arman2.png" alt="">
+        </div>
+        <div class="half-width">
+            <h2>ABOUT</h2>
+            <p id="about-me">I am a Web developper with a vast array of knowledge in many different front end and back end languages, responsive frameworks, databases and best code practices. My objective is simply to be the best web developer that I can be and contribute to the technology industry all that I know and can do.</p>
+            
+            <button class="link-button"><i class="fa fa-download"></i>    Download CV</button>
+        </div>
+    </section > 
+        <div class="projects">
+                <h3><span>LASTET</span> WORKING PROJECT</h3>
+
+                <div id="website" class="half-width single-experience">
+                    <img class="projects-images" src="images/my-other-website.PNG" alt="website">
+                    <h5>My Portfolio</h5>
+                    <p>Recently I made this website with html and css only</p>
+                </div>
+
+                <div id="iot" class="half-width single-experience">
+                    <img class="projects-images" src="images/iot.png" alt="iot">
+                    <h5>Internet of Things</h5>
+                    <p>Recently I made this arduino project which let's me control LED light from my Android Phone</p>
+                </div>
+
+                <div id="app" class="half-width single-experience">
+                    <img class="projects-images" src="images/app.png" alt="app">
+                    <h5>Android App</h5>
+                    <p>Recently I made this Plasma Donation App and Lauched it's MVP with my team</p>
+                </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-chat">
+            <img class="img-chat" src="images/chat.png" alt="chat">
+            <div class="left">
+                <h3 id="chat">WORK INQUIRY</h3>
+            </div>
+            <div class="right">
+                <button class="chat-button">HIRE ME</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-specialization">
+            <img class="img-specialization" src="images/specialization.png" alt="specialization">
+
+            <div class="title-specialization">
+                <h3 id="specialization"><span>WHAT I DO</span> <br>SPECIALIZING IN</h3>
+            </div>
+            
+        </div>
+    </section>
 </body>
 </html>

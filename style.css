@@ -27,8 +27,10 @@ p{
 .picture{
     width: 80%;
 }
+
 .link-button{
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(#fd412a, #3f0000);
     padding: 10px 20px;
     border-radius: 5px;
@@ -111,18 +113,19 @@ h5{
 }
 .right {
     position: absolute;
-    top: 260px;
+    top: 285px;
     right: 550px;
 }
 .chat-button{
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(#ffe549, #ff8000);
     padding: 20px 30px;
     border-radius: 5px;
     color: black;
     font-weight: bold;
     font-size: 20px;
-    margin-top: 2%;
+    margin-top: 10%;
 }
 .specialization{
     background-image: url("images/specialization.png");
